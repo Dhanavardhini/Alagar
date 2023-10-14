@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+  <title>Login Page</title>
+  <style>
+      form{
+        max-width: 500px;
+        margin: auto;
+        margin-top: 75px;
+        padding: 15px 25px;
+        padding-bottom: 40px;
+        text-align: left;
+        justify-content: left;
+        align-items: center;
+        outline-style: 15px solid;
+        border: black;
+        border-width :0.5px;
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.306);
+      }
+       body {
+        padding-left: 300px;
+            align-items: center;
+            justify-content: center;
+        }
+
+         *{  
+            background-size: 100% 100%;
+            color: rgb(0, 0, 0);
+            border-width: 2px;
+            padding: 5px;
+    
+        }
+        .ne{
+          border-radius: 10px;
+          border-width: 0.5px;
+          background-color: rgba(255, 255, 255, 0.541);
+          border-color: rgb(0, 11, 20);
+        }
+
+        input[type=checkbox] {
+          accent-color:rgb(201, 0, 0);
+        }
+
+        input[type=radio] {
+            accent-color:rgb(248, 195, 195);
+        }
+
+        a:link, a:visited{
+        border: 5px rgb(0, 0, 0);
+        background-color: #970404fa;
+        color: rgb(255, 255, 255);
+        border-radius: 3px;
+        width: 30px;
+        padding: 15px 25px;
+        text-align: center;
+        text-decoration: none;
+        text-size-adjust: 10px;
+        font-size: 13px; 
+        margin-left: 360px;
+        
+      }
+      a:hover,a:active{
+        background-color: #ff0000;
+        font-size: 14px;
+      }
+
+    .class { 
+            height: 100%;
+            width: 100%;
+            left:0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            position: absolute;
+            background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+            background-size: 1800% 1800%;
+
+            -webkit-animation: rainbow 18s ease infinite;
+            -z-animation: rainbow 18s ease infinite;
+            -o-animation: rainbow 18s ease infinite;
+            animation: rainbow 18s ease infinite;}
+
+            @-webkit-keyframes rainbow {
+            0%{background-position:0% 82%}
+            50%{background-position:100% 19%}
+            100%{background-position:0% 82%}
+           }
+           @-moz-keyframes rainbow {
+           0%{background-position:0% 82%}
+           50%{background-position:100% 19%}
+           100%{background-position:0% 82%}
+           }
+           @-o-keyframes rainbow {
+           0%{background-position:0% 82%}
+           50%{background-position:100% 19%}
+           100%{background-position:0% 82%}
+        }
+           @keyframes rainbow { 
+           0%{background-position:0% 82%}
+           50%{background-position:100% 19%}
+           100%{background-position:0% 82%}
+       }
+       
+  </style>
+</head>
+<body style="font-family:serif">
+  <div class="class">
+    <form>
+      <h1 style="text-align: center; font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;">APPLICATION FROM</h1> 
+          Enter your Name:
+          <input type="text" name="username" class="ne"> <br></br>
+          Enter your Department: 
+          <input type="text" name="username" class="ne"> <br></br>
+          DOB:
+          <input type="date" class="ne"><br></br>
+          Email id:
+          <textarea name="" id="" cols="30" rows="1" class="ne"></textarea>
+           <br></br> Gender:
+              <input type="radio" name="Do you exercise at home?">Male
+              <input type="radio" name="Do you exercise at home?">Female
+              <br></br>
+              Language: 
+              <input type="checkbox" name="">C
+              
+              <input type="checkbox" name="How do you like to read about your favorite topics?">C++
+              
+              
+              <input type="checkbox" name="How do you like to read about your favorite topics?">java
+              <input type="checkbox" name="How do you like to read about your favorite topics?">python
+              <br></br>
+              District
+              <select name="district" class="ne">
+                <option value="Thanjavur">Thanjavur</option>
+                <option value="Ariyalur">Ariyalur</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Salem">salem</option>
+                <option value="Tirunelveli">Tirunelveli</option>
+                <option value="Trichy">Trichy</option>
+                <option value="chennai">Chennai</option>
+              </select><br></br>
+            <label>Upload Resume</lebel>
+              <input type="file"></br></br>
+            <lebel>Choose your accent-color:</label>
+              <input type="color">
+              <a href="" target="_blank">Submit</a>
+              </form>
+            </div>
+</body>
+</html>
